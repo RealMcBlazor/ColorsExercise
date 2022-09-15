@@ -1,0 +1,46 @@
+/* color name, hexadecimal, hexadecimal shorthand, hexadecimal with transparency, hexadecimal with transparency shorthand, RGB, & RGBA */
+/* Red, orange, yellow, green, blue, indigo, violet. */
+h1 {
+    color: cornflowerblue;
+    background-color: red;
+}
+h2 {
+    color: #0000FF;
+    background-color: orange;
+}
+h3 {
+   color: #00f;
+   background-color: yellow; 
+}
+h4 {
+    color: #0000ff9f;
+    background-color: green;
+}
+h5 {
+    color: #00f5;
+    background-color: blue;
+}
+h6 {
+    color: rgb(212, 212, 215);
+    background-color: indigo;
+}
+p {
+    color: rgba(112, 112, 215, 0.5);
+    background-color: violet;
+}
+
+.one {
+    color: hotpink;
+}
+
+.three {
+    background-color: peachpuff;
+}
+
+#altered {
+    border: 5px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* Using ONLY one selector in your css file (Example of a selector is: h1), give the first and third LIs (AKA List items) a border that is five pixels wide, solid (Not dashed or dotted), and green. (Hint: Class) */
